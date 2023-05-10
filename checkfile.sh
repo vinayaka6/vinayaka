@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+
 
 
 echo " enter the name to check"

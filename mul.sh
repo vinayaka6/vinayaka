@@ -1,12 +1,12 @@
 #!/bin/bash
-
-
 echo "ENTER THE TWO NUMBERS"
 read num1 num2 
-
-
 SUM=$(($num1 + $num2))
 product=$(($num1 * $num2))
+
+
+
+
 
 
 echo " sum of $num1 and $num2 is $SUM"
