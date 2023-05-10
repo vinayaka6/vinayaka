@@ -1,0 +1,1000 @@
+   19  sh count.sh /home/ec2-user/linux_commands/Indianusers
+   20  vi count.sh
+   21  rm count.sh
+   22  cd shell_scripting
+   23  pwd
+   24  cd ../
+   25  cd shell_scripting
+   26  cd linux_commands
+   27  cd ../..
+   28  cd linux_commands
+   29  pwd
+   30  ls -lrt
+   31  ec2-user
+   32  cd ec2-user
+   33  cd shell_scripting
+   34  ls -lrt
+   35  vi count.sh
+   36  vi file1.txt
+   37  sh count.sh /home/ec2-user/shell_scripting/file1.txt
+   38  vi count,sh
+   39  rm count,sh
+   40  vi count.sh
+   41  sh count.sh /home/ec2-user/shell_scripting/file1.txt
+   42  vi count.sh
+   43  sh count.sh /home/ec2-user/shell_scripting/file1.txt
+   44  vi count.sh
+   45  sh count.sh /home/ec2-user/shell_scripting/file1.txt
+   46  vi basicfor.sh
+   47  sh basicfor.sh
+   48  sh -x basicfor.sh
+   49  vi add_list_num.shd
+   50  sh add_list_num.sh 1 2 3 4 5 
+   51  sh -x add_list_num.sh 1 2 3 4 5 
+   52   
+   53  vi basic_for
+   54  rm basic_for
+   55  vi basic_for.sh
+   56  rm basic_for.sh
+   57  vi basicfor.sh
+   58  sh add_list_num.sh 1 3
+   59  vi basicfor.sh
+   60  sh add_list_num.sh 1 3
+   61  vi basicfor.sh
+   62  sh add_list_num.sh 1 3
+   63  vi addnum.sh
+   64  sh addnum.sh
+   65  sh addnum.sh 8 9
+   66  sh addnum.sh 1 2 3 4 5 
+   67  vi addnum.sh
+   68  sh addnum.sh 1 2 3 4 5 
+   69  sh add_list_num.sh 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+   70  pwd
+   71  cd shell_scripting
+   72  ls -lrt
+   73  vi factorialnnum.sh
+   74  sh factorialnnum.sh 1 2
+   75  vi factorialnnum.sh
+   76  exit
+   77  clear
+   78  pwd
+   79  cd shell_scripting
+   80  ls -lrt
+   81  factorialnum.sh
+   82  vi factorialnum.sh
+   83  vi factorial.sh
+   84  vi basicfor.sh
+   85  cat factorialnum.sh
+   86  vi factorial.sh
+   87  vi factorialnum.sh [A
+   88  vi factorial.sh
+   89  sh factorial.sh
+   90  vi factorialnum.sh
+   91  cd shell_scripting vi factorialnum.sh
+   92  vi factorialnum.sh
+   93  ls -lrt
+   94  vi factorialnnum.sh
+   95  sh factorialnnum.sh
+   96  sh factorialnnum.sh 3 4 5
+   97  vi factorialnnum.sh
+   98  sh factorialnnum.sh 3 4 5
+   99  vi factorialnnum.sh
+  100  sh factorialnnum.sh 3 4 5
+  101  vi factorialnnum.sh
+  102  sh factorialnnum.sh 3 4 5
+  103  vi factorialnnum.sh
+  104  sh factorialnnum.sh 3 4 5
+  105  vi factorialnnum.sh
+  106  sh factorialnnum.sh 3 4 5
+  107  vi factorialnnum.sh
+  108  sh factorialnnum.sh 3 4 5
+  109  vi factorialnnum.sh
+  110  sh factorialnnum.sh 3 4 5
+  111  vi factorialnnum.sh
+  112  sh factorialnnum.sh 3 4 5
+  113  sh factorialnnum.sh 56 78
+  114  sh factorialnnum.sh 100 300
+  115  sh factorialnnum.sh 10 11
+  116  sh factorialnnum.sh 12 13
+  117  sh factorialnnum.sh 15 17
+  118  sh factorialnnum.sh 21 34
+  119  sh factorialnnum.sh 34 56
+  120  sh factorialnnum.sh 
+  121  sh factorialnnum.sh 69 96
+  122  ls -lrt
+  123  cat factorialnum.sh
+  124  rm factorialnum.sh
+  125  vi factorialnum.shh
+  126  rm factorialnum.sh
+  127  rm factorialnum.shh
+  128  cat factorialnnum.sh
+  129  clear
+  130  evenodd.sh
+  131  vi evenodd.sh
+  132  sh evenodd.sh
+  133  vi evenodd.sh
+  134  sh evenodd.sh
+  135  vi evenodd.sh
+  136  sh evenodd.sh
+  137  vi evenodd.sh
+  138  sh evenodd.sh
+  139  vi evenodd.sh
+  140  sh evenodd.sh
+  141  vi evenodd.sh
+  142  sh evenodd.sh
+  143  vi evenodd.sh
+  144  sh evenodd.sh
+  145  vi evenodd.sh
+  146  sh evenodd.sh
+  147  vi evenodd.sh
+  148  sh evenodd.sh
+  149  vi evenodd.sh
+  150  sh evenodd.sh
+  151  vi evenodd.sh
+  152  sh evenodd.sh
+  153  vi evenodd.sh
+  154  sh evenodd.sh
+  155  vi evenodd.sh
+  156  sh evenodd.sh
+  157  #!/bin/bash
+  158  factorial() {         while [ $NUM -ge 1 ];         do                 FACT=`expr $FACT \* $NUM`;                 NUM=$(( $NUM - 1 ));         done;         echo "FCATORIAL OF $VAR IS $FACT"; }
+  159  for i in $*; do         FACT=1;         NUM=$i;         VAR=$i;         factorial;  done
+  160  #!/bin/bash
+  161  factorial() {         while [ $NUM -ge 1 ];         do                 FACT=`expr $FACT \* $NUM`;                 NUM=$(( $NUM - 1 ));         done;         echo "FCATORIAL OF $VAR IS $FACT"; }
+  162  for i in $*; do         FACT=1;         NUM=$i;         VAR=$i;         factorial;  done
+  163  #!/bin/bash
+  164  factorial() {         while [ $NUM -ge 1 ];         do                 FACT=`expr $FACT \* $NUM`;                 NUM=$(( $NUM - 1 ));         done;         echo "FCATORIAL OF $VAR IS $FACT"; }
+  165  for i in $*; do         FACT=1;         NUM=$i;         VAR=$i;         factorial;  done
+  166  clear
+  167  vi biggestofn.sh
+  168  sh biggestofn.sh 1 2 3 
+  169  sh biggestofn.sh 1 2 3   4
+  170  sh biggestofn.sh 1 2 3   4 5 6 7 8 9
+  171  vi biggestofn.sh
+  172  sh biggestofn.sh 1 2 3   4 5 6 7 8 9
+  173  vi biggestofn.sh
+  174  sh biggestofn.sh 1 2 3   4 5 6 7 8 9
+  175  vi biggestofn.sh
+  176  sh biggestofn.sh 1 2 3   4 5 6 7 8 9
+  177  vi biggestofn.sh
+  178  sh biggestofn.sh 1 2 3   4 5 6 7 8 9
+  179  vi biggestofn.sh
+  180  sh biggestofn.sh 1 2 3   4 5 6 7 8 9
+  181  vi biggestofn.sh
+  182  vi biggestof2.sh
+  183  vi biggestofn.sh
+  184  vi biggestof2.sh
+  185  vi biggestof2.sh 1 2 3
+  186  sh biggestof2.sh 1 2 3
+  187  vi biggestof2.sh 1 2 3
+  188  sh biggestof2.sh 1 2 3
+  189  sh biggestof2.sh 1 2 3 4 5 
+  190  vi biggestof2.sh 
+  191  rm biggestof2.sh
+  192  vi biggestof2.sh
+  193  sh biggestof2.sh 1 2 3 4
+  194  vi biggestof2.sh
+  195  vi biggestof2.sh 1 2 3 4
+  196  sh biggestof2.sh 1 2 3 4
+  197  vi biggestof2.sh
+  198  vi biggestof2.sh 1 2 3 4
+  199  sh biggestof2.sh 1 2 3 4
+  200  vi biggestof2.sh 
+  201  sh biggestof2.sh 1 2 3 4
+  202  vi biggestof2.sh 
+  203  sh biggestof2.sh 1 2 3 4
+  204  vi biggestof2.sh 
+  205  sh biggestof2.sh 1 2 3 4
+  206  vi biggestof2.sh 
+  207  sh biggestof2.sh 1 2 3 4
+  208  vi biggestof2.sh 
+  209  sh biggestof2.sh 1 2 3 4
+  210  sh biggestof2.sh 4 5 9
+  211  vi ascendingorder
+  212  mv ascendingorder ascendingorder.sh
+  213  vi ascendingorder.sh
+  214  vi ascendingorder.sh 1 3 4
+  215  sh ascendingorder.sh 1 3 4
+  216  sh ascendingorder.sh 
+  217  vi ascendingorder.sh 
+  218  sh ascendingorder.sh 
+  219  vi ascendingorder.sh 
+  220  sh ascendingorder.sh 
+  221  vi ascendingorder.sh 
+  222  sh ascendingorder.sh 
+  223  5 4
+  224  sh ascendingorder.sh 
+  225  vi ascendingorder.sh 
+  226  sh ascendingorder.sh 
+  227  vi ascendingorder.sh 
+  228  sh ascendingorder.sh 
+  229  vi ascendingorder.sh 
+  230  sh ascendingorder.sh 
+  231  viwq descendingorder.sh 
+  232  vi descendingorder.sh 
+  233  sh descendingorder.sh 
+  234  vi descendingorder.sh 
+  235  sh descendingorder.sh 
+  236  vi descendingorder.sh 
+  237  sh descendingorder.sh 
+  238  vi revstringfile.sh
+  239  sh revstringfile.sh
+  240  vi revstringfile.sh
+  241  sh revstringfile.sh
+  242  sh revstringfile.sh addsum.sh
+  243  vi revstringfile.sh
+  244  sh revstringfile.sh 
+  245  vi revstringfile.sh
+  246  sh revstringfile.sh 
+  247  vi revstringfile.sh
+  248  sh revstringfile.sh 
+  249  vi revstringfile.sh
+  250  sh revstringfile.sh 
+  251  vi revstringfile.sh
+  252  sh revstringfile.sh 
+  253  vi revstringfile.sh
+  254  sh revstringfile.sh 
+  255  clear
+  256  cd shell_scripting
+  257  ls -lrt
+  258  vi biggestofn.sh
+  259  vi cpu_utilization.sh
+  260  sh cpu_utilization.sh
+  261  vi pyramid.sh
+  262  sh pyramid.sh
+  263  vi pyramid.sh
+  264  sh pyramid.sh
+  265  vi pyramid.sh
+  266  sh pyramid.sh
+  267  vi pyramid.sh
+  268  sh pyramid.sh
+  269  vi pyramid.sh
+  270  exit
+  271  cd shell_scripting
+  272  ls -lrt
+  273  cat basic.sh
+  274  vi basic.sh
+  275  vi while.sh
+  276  cat shell.sh
+  277  crontab -l
+  278  crontab -e
+  279  vi basic.sh
+  280  crontab -e
+  281  crontab -l
+  282  crontab -e
+  283  ps -ef
+  284  clear
+  285  ls -lt
+  286  cat shell.sh
+  287  crontab -l
+  288  crontab -e
+  289  crontab -l
+  290  vi basic.sh
+  291  vi shell.sh
+  292  sh shell.sh
+  293  sh shell.sh vinayaka ramki
+  294  crontab -l
+  295  ps -ef
+  296  sudo crontab -e
+  297  crontab -l
+  298  crontab -e
+  299  sudo cronta -e
+  300  sudo crontab -e
+  301  crontab -l
+  302  kill -9
+  303  sudo crontab -l
+  304  ps -ef
+  305  clear
+  306  exit
+  307  cd shell_scripting
+  308  ls -lrt
+  309  cat revstring.sh
+  310  cat revstringfile.sh
+  311  cat pyramid.sh
+  312  cat basic.sh
+  313  cat sehll.sh
+  314  cat shell.sh
+  315  vi nameidage.sh
+  316  sh nameidage.sh
+  317  vi nameidage.sh
+  318  sh nameidage.sh
+  319  vi nameidage.sh
+  320  sh nameidage.sh
+  321  vi nameidage.sh
+  322  sh nameidage.sh
+  323  vi nameidage.sh
+  324  sh nameidage.sh
+  325  vi nameidage.sh
+  326  sh nameidage.sh
+  327  vi nameidage.sh
+  328  sh nameidage.sh
+  329  vi nameidage.sh
+  330  sh nameidage.sh
+  331  sh nameidage.sh 25
+  332  ls -lrt
+  333  sh cpu_utilization.sh
+  334  vi cpu_utilization.sh
+  335  sh cpu_utilization.sh
+  336  vi pyramid.sh
+  337  sh pyramid.sh
+  338  vi pyramid.sh
+  339  sh pyramid.sh
+  340  vi pyramid.sh
+  341  sh pyramid.sh
+  342  vi pyramid.sh
+  343  sh pyramid.sh
+  344  clear
+  345  exit
+  346  clear
+  347  cd shell_scripting
+  348  ls -lrt
+  349  cat basicwhile.sh
+  350  cat addsum.sh
+  351  vi addsum.sh 2 3
+  352  sh addsum.sh 2 3
+  353  ls -lrt
+  354  cat biggestthree.sh
+  355  sh biggestthree.sh
+  356  sh biggestthree.sh 3 4 5
+  357  cat sum.sh
+  358  vi basciwhile.sh
+  359  cat basic.sh
+  360  cat basicwhile.sh
+  361  sh basicwhile.sh
+  362  sh basicwhile.sh  4 5
+  363  sh basicwhile.sh  4
+  364  exit
+  365  cd shell_scripting
+  366  ls -lrt
+  367  cat biggestofn.sh
+  368  vi biggestofn.sh
+  369  cd shell_scripting
+  370  ls -lrt
+  371  cat basicfor.sh
+  372  sh basicfor.sh
+  373  sh basicfor.sh 3 4 5
+  374  sh substring.sh
+  375  sh substring.sh 4 3
+  376  clear
+  377  cd shell_scripting
+  378  crotab -l
+  379  crontab -l
+  380  vi shell.sh
+  381  crontab -e
+  382  cat basic.sh
+  383  vi shell.sh
+  384  ps -ef
+  385  clear
+  386  echo >> shell.sh
+  387  echo >shell.sh
+  388  echo "hai" > shell.sh
+  389  cat shell.sh
+  390  crontab -e
+  391  ps -ef | grep sleep 300
+  392  sleep 300 &
+  393  ps -ef | grep sleep 3335
+  394  ps -ef | grep 3335
+  395  kill -9
+  396  ps -ef
+  397  ps -ef | egrep "sleep | 300" | grep -v grep | awk -F " " '{print $2}' | sudo X args kill -9
+  398  ps -ef | egrep "sleep | 300" | grep -v grep | awk -F " " '{print $2}' | sudo x args kill -9
+  399  ps -ef | egrep "sleep | 300" | grep -v grep | awk -F " " '{print $2}' | sudox args kill -9
+  400  ps -ef | egrep "sleep | 300" | grep -v grep | awk -F " " '{print $2}' | sudo xargs kill -9
+  401  ps -ef | egrep "sleep | 300" | grep -v grep | awk -F " " '{print $2}' | sudo xargs kill-9
+  402  ps -ef | egrep "sleep | 300" | grep -v grep | awk -F " " '{print $2}' | sudo xargs kill -9
+  403  sleep 300
+  404  ps -ef
+  405  exit
+  406  clear
+  407  cat /etc/shells
+  408  which bash
+  409  who am i
+  410  whoami
+  411  ls -l
+  412  wc -c
+  413  file1 wc -c
+  414  wc -c file1
+  415  cat file10
+  416  cat linu_commands
+  417  cat linux_commands
+  418  cd linux_commands
+  419  ls -l
+  420  cat test
+  421  test wc -c
+  422  wc -c test
+  423  vi test
+  424  Indian users
+  425  vi hai.sh
+  426  sh hai.sh
+  427  vi hai.sh
+  428  sh hai.sh
+  429  vi hai.sh
+  430  sh hai.sh
+  431  vi hai.sh
+  432  sh hai.sh
+  433  vi hai.sh
+  434  sh hai.sh
+  435  vi hai.sh
+  436  sh hai.sh
+  437  echo "hai"
+  438  echo 'hai'
+  439  echo"hai"
+  440  which shell
+  441  echo $shell
+  442  echo$shell
+  443  echo "$shell"
+  444  echo $$
+  445  echo $0
+  446  echo $?
+  447  echo $#
+  448  echo $@
+  449  echo $BASH
+  450  echo $BASH_VERSION
+  451  echo $HOME
+  452  echo $PWD
+  453  vi hai.sh
+  454  sh hai.sh
+  455  vi hai.sh
+  456  sh hai.sh
+  457  vi hai.sh
+  458  sh hai.sh
+  459  exit
+  460  clear
+  461  cd shell_scripting
+  462  ls -l
+  463  ls -rt
+  464  ls -lrt
+  465  ls -lt
+  466  ls -lrt
+  467  clear
+  468  ls -lrt
+  469  grep empty.sh
+  470  grep basic.sh
+  471  vi empty.sh
+  472  sh empty.sh
+  473  cat dataage.sh
+  474  sh empty.sh 
+  475  vi dataage.sh
+  476  sh dataage.sh
+  477  vi data1
+  478  sh dataage.sh
+  479  sh dataage.sh 34
+  480  vi dataage.sh
+  481  vi dataage.sh data1
+  482  cat diskspace
+  483  vi diskspace.sh
+  484  sh diskspace.sh
+  485  df -h
+  486  df
+  487  clear
+  488  df
+  489  df -h
+  490  df space
+  491  df -h space
+  492  sh diskspace.sh
+  493  vi diskspace.sh
+  494  sh diskspace.sh
+  495  sh diskspace.sh shell_scripting
+  496  vi diskspace.sh
+  497  ls -lrt
+  498  chmod rws diskspace.sh
+  499  chmod rwx diskspace.sh
+  500  chmod +rwx diskspace.sh
+  501  ls -lrt
+  502  chmod 777 diskspace.sh
+  503  ls -lrt
+  504  sh diskspace.sh
+  505  bash diskspace.sh
+  506  ./diskspace.sh
+  507  bash mem_check.sh
+  508  vi diskspace.sh
+  509  bash mem_check.sh
+  510  sh diskspace.sh
+  511  vi diskspace.sh
+  512  sh diskspace.sh
+  513  vi diskspace.sh
+  514  sh diskspace.sh
+  515  vi rename.sh
+  516  sh rename.sh
+  517  vi rename.sh
+  518  sh rename.sh
+  519  vi rename.sh
+  520  chmod 777 rename.sh
+  521  sh rename.sh
+  522  vi rename.sh
+  523  ls -l
+  524  ls -lrt
+  525  vi rename.sh
+  526  touch first.txt
+  527  sh rename.sh
+  528  sh rename.sh | more
+  529  vi rename.sh
+  530  touch first
+  531  sh rename.sh | more
+  532  vi rename.sh
+  533  sh rename.sh | more
+  534  sh rename.sh 
+  535  cat revstringfile.sh
+  536  cat revfile.sh
+  537  vi revfile.sh
+  538  sh revfile.sh
+  539  vi revfile.sh
+  540  sh revfile.sh
+  541  vi revstring.sh
+  542  sh revstring.sh
+  543  vi revstring.sh
+  544  sh revstring.sh
+  545  vi revstring.sh
+  546  sh revstring.sh
+  547  vi revstring.sh
+  548  sh revstring.sh
+  549  vi revstring.sh
+  550  sh revstring.sh
+  551  vi revstring.sh
+  552  sh revstring.sh
+  553  vi revstring.sh
+  554  sh revstring.sh
+  555  vi revstring.sh
+  556  sh revstring.sh
+  557  pwd
+  558  mkdir shell_scripting>>shell
+  559  ls -lrt
+  560  rm shell_scripting
+  561  rm -d shell_scripting
+  562  ls -lrt
+  563  rm shell
+  564  mkdir shell_scripting/shell
+  565  mkdir shell
+  566  cd linux_commands
+  567  cd
+  568  ls -lrt
+  569  mkdir dir2/shell
+  570  cd shell
+  571  cd dir2
+  572  cd shell
+  573  cd
+  574  cd dir2/shell
+  575  ls -lrt
+  576  touch {1..100}
+  577  ls -lrt
+  578  touch {200a..2000a}
+  579  ls -lrt
+  580  touch {1..1000}
+  581  ls -lrt
+  582  rm {1..100}
+  583  rm {1..1000}
+  584  ls
+  585  rm {200a..2000a}
+  586  touch  file1
+  587  rm -f file1
+  588  ls -lrt
+  589  touch file {1..100}
+  590  ls -lrt
+  591  touch file{1..100}
+  592  ls l
+  593  ls -rt
+  594  rm file {1..100}
+  595  ls -rt
+  596  pwd
+  597  cd shell_scripting
+  598  cd /home/ec2-user/shell_scripting
+  599  sh filedelete.sh
+  600  vi filedelete.sh
+  601  sh filedelete.sh
+  602  vi filedelete.sh
+  603  sh filedelete.sh
+  604  vi filedelete.sh
+  605  sh filedelete.sh
+  606  vi filedelete.sh
+  607  sh filedelete.sh
+  608  vi filedelete.sh
+  609  sh filedelete.sh
+  610  vi filedelete.sh
+  611  sh filedelete.sh
+  612  vi filedelete.sh
+  613  sh filedelete.sh
+  614  vi filedelete.sh
+  615  sh filedelete.sh
+  616  cd shell
+  617  vi filedelete.sh
+  618  sh filedelete.sh
+  619  cd shell_scripting
+  620  cd
+  621  cd shell_scripting
+  622  vi filedelete.sh
+  623  cd shell
+  624  ls -rt
+  625  ls -lrt
+  626  chmod 777 filedelete.sh
+  627  ls -rt
+  628  touch {1..100}
+  629  ls -lrt
+  630  rm {1..100
+  631  rm {1..100}
+  632  touch file{1..100}
+  633  ls -rt
+  634  sh filedelete.sh
+  635  ls -rt
+  636  cat filedelete.sh
+  637  vi filedelete.sh
+  638  ls -rt
+  639  vi filedelete.sh
+  640  sh filedelete.sh
+  641  ls -rt
+  642  cd
+  643  cd shell_scripting
+  644  ls -rt
+  645  ls -lrt
+  646  clear
+  647  cd shell_scripting
+  648  vi casenumber.sh
+  649  sh casenumber.sh
+  650  sh casenumber.sh 1
+  651  sh casenumber.sh 4
+  652  sh casenumber.sh 9
+  653  sh casenumber.sh 7
+  654  vi casenumber.sh
+  655  clear
+  656  ssh ec2-user@65.2.40.61
+  657  sudo yum install git -y
+  658  which git
+  659  whereis git
+  660  git --version
+  661  cd shell_scripting
+  662  ls -lrt
+  663  cd
+  664  mkdir vinayakgit
+  665  cd vinayakagit/
+  666  cd vinayak/git
+  667  cd vinayakagit/
+  668  cd vinayakgit/
+  669  ls -lrt
+  670  git init
+  671  ls -lart
+  672  cd .git/
+  673  ls -lrt
+  674  cat config
+  675  cd ..
+  676  clear
+  677  git config --global init.defaultBranch master
+  678  git branch
+  679  ls -lrt
+  680  git config --global user.name "vinayaka"
+  681  git config --global user.email "vinayakavinnu07@gmail.com"
+  682  cd .git/
+  683  cat config
+  684  cd ..
+  685  git remote add origin https://github.com/vinayaka6/vinayaka.git
+  686  git branch -M main
+  687  cd
+  688  ls -lrt
+  689  cd vinayakgit
+  690  ls -lrt
+  691  ls -lart
+  692  cd
+  693  cd vinayakgit
+  694  clear
+  695  git status
+  696  "git add"
+  697  [ec2-user@ip-172-31-0-27 vinayakgit]$ git status
+  698  On branch main
+  699  No commits yet
+  700  nothing to commit (create/copy files and use "git add" to track)
+  701  [ec2-user@ip-172-31-0-27 vinayakgit]$ "git add"
+  702  -bash: git add: command not found
+  703  [ec2-user@ip-172-31-0-27 vinayakgit]$
+  704  clear
+  705  git status
+  706  git add shell_scripting/
+  707  "git add" shell_scripting
+  708  git status
+  709  ls -lrt
+  710  git add vinayakgit
+  711  cd shell_scripting
+  712  cd shell_scripting/
+  713  cd..
+  714  cd .shell_scripting/
+  715  cd../..
+  716  cd ..
+  717  ls -lrt
+  718  cd shell_scripting
+  719  git add shell_scripting
+  720  git add shell_scripting/
+  721  git init
+  722  git add shell_scripting/
+  723  ls -la
+  724  mk dir git
+  725  mkdir git
+  726  git add shell_scripting
+  727  rm -d git
+  728  mkdir shell_scripting
+  729  ls -lrt
+  730  chmod 777 shell_scripting
+  731  git add shell_scripting
+  732  git status
+  733  git branch -M master
+  734  ls
+  735  cat while.sh
+  736  cat userpass.sh
+  737  git add userpass.sh
+  738  git status
+  739  git commit -m "adding a new name"
+  740  git status
+  741  clear
+  742  git status
+  743  git remote -v
+  744  git push
+  745  git status
+  746  git remote -v
+  747  git push
+  748  git init
+  749  git status
+  750  git remote -v
+  751  git push --set-upstream origin master
+  752  git push
+  753  git push --set-upstream origin master
+  754  git push
+  755  git push origin
+  756  git push --set-upstream origin master
+  757  clear
+  758  git push --set-upstream origin master
+  759  git push origin
+  760  git push --set-upstream origin master
+  761  git push set-upstream origin master
+  762  git push --set-upstream origin master
+  763  clear
+  764  git push origin
+  765  git push set-upstream origin master
+  766  git init
+  767  ls -lrt
+  768  cd
+  769  ls -lrt
+  770  cd vinayakgit
+  771  ls -lrt
+  772  ls -lart
+  773  cd ..
+  774  cd shell_scripting2
+  775  ls -lart
+  776  cd shell_scripting
+  777  cd shell_scripting/
+  778  cd ..
+  779  cd shell_scripting
+  780  ls -lrt
+  781  git init
+  782  git push
+  783  git remote -v
+  784  git push origin
+  785   git push --set-upstream origin master
+  786  git config --list
+  787  git config
+  788  git remote add origin https://github.com/yourusername/yourrepository.git
+  789  git remote add origin https://github.com/vinayaka6vinayak.git
+  790  git remote add origin https://github.com/vinayaka6vinayakgit
+  791  git remote add origin https://github.com/vinayaka6/vinayaka.git
+  792  git branch -M main
+  793  git push -u origin main
+  794  git remote add origin https://github.com/vinayaka6/vinayaka.git
+  795  git branch -M main
+  796  git push -u origin main
+  797  git remote add origin https://github.com/vinayaka6/vinayaka.git
+  798  git branch -M main
+  799  git push -u origin main
+  800   git remote add origin https://github.com/vinayaka6                                                                /vinayaka.git
+  801  git push -u origin main
+  802   git remote add origin https://github.com/vinayaka6                                                                /vinayaka.git
+  803  git push -u origin main
+  804  cd shell_scripting
+  805  git push -u origin main
+  806  git remote -v
+  807  git push
+  808  git push -u origin main
+  809  git remote add origin https://github.com/vinayaka6/vinayaka.git
+  810  git branch -M main
+  811  git push -u origin main
+  812  cd shell_scripting
+  813  ls -lart
+  814  cd shell_scripting/shell_scripting
+  815  cd shell_scripting
+  816  git remote add origin https://github.com/vinayaka6/vinayaka.git
+  817  git push -u origin main
+  818  git commit -m "first commit"
+  819  git status
+  820  git remote -v
+  821  git branch -M main
+  822  git remote add origin https://github.com/vinayaka6/vinayaka.git
+  823  git push -u origin main
+  824  exit
+  825  clear
+  826  git status
+  827  cd shell_scripting
+  828  git stauts
+  829  git status
+  830  git add.
+  831  git push -u origin master
+  832  git init
+  833  git push -u origin master
+  834  git remote add origin https://github.com/vinayaka6/vinayaka.git
+  835  git branch -M main
+  836  git push -u origin main
+  837  echo "# vinayaka" >> README.md
+  838  git init
+  839  git add README.md
+  840  git commit -m "first commit"
+  841  git branch -M main
+  842  git remote add origin https://github.com/vinayaka6/vinayaka.git
+  843  git push -u origin main
+  844  https://github.com/vinayaka6/vinayaka.git
+  845  git remote add origin https://github.com/vinayaka6/vinayaka.git
+  846  git push -u origin master
+  847  ls -lrt
+  848  git status
+  849  git add sum.sh
+  850  git status
+  851  git commit
+  852  git commit -m "adding file addsum.sh"
+  853  git remote add origin https://github.com/vinayaka6/vinayaka.git
+  854  git branch -M main
+  855  git push -u origin main
+  856  git push origin
+  857  git push --set-upstream origin main
+  858  git remote -v
+  859  git remote set-url origin git@github.com:vinayaka6/vinayaka.git
+  860  git remote -v
+  861  git remote set-url https://github.com/vinayaka6/vinayaka.git
+  862  git remote set-url origin https://github.com/vinayaka6/vinayaka.git
+  863  git push origin
+  864  git push --set-upstream origin master
+  865  git push --set-upstream origin main
+  866  git push addsum.sh
+  867  ssh-keygen
+  868  cd .ssh
+  869  ls -lrt
+  870  cd .ssh
+  871  cd.ssh
+  872  ssh-keygen
+  873  cd.ssh
+  874  cd .ssh
+  875  cd /home/ec2-user/.ssh/id_rsa.pub.
+  876  cd /home/ec2-user/.ssh/id_rsa.pub
+  877  cd
+  878  pwd
+  879  ssh-keygen
+  880  cd.ssh
+  881  cd .ssh
+  882  cd id_rsa.pub
+  883  ls -lart
+  884  cat id_rsa
+  885  cd
+  886  ssh-keygen
+  887  cd /home/ec2-user/.ssh/id_rsa.pub
+  888  cd /home/ec2-user/.ssh
+  889  cat id_rsa.pub.
+  890  cat id_rsa.pub
+  891  cd
+  892  cd shell_scripting
+  893  git push addsum.sh
+  894  git push origin
+  895  git status
+  896  git add addsum.sh
+  897  git status
+  898  git commit -m "adding sum"
+  899  git push addsum.sh
+  900  cat addsum.sh
+  901  exit
+  902  cd shell_scripting
+  903  git remote -v
+  904  git remote set-url origin https://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@github.com/vinayaka6/vinayaka.git
+  905  git push origin testing
+  906  git remote set-url origin https://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@github.com/vinayaka6/vinayaka.git
+  907  git push origin testing
+  908  git status
+  909  exit
+  910  cd shell_scripting
+  911  git add8
+  912  git add*
+  913  git --help
+  914  clear
+  915  cd shell_scripting
+  916  git add.
+  917  git add --all
+  918  git commit -m "add all files"
+  919  git status
+  920  cat shell/file1
+  921  ls -lrt
+  922  cd shell_scripting
+  923  ls -lrt
+  924  git push origin main
+  925  git commit
+  926  git commit -m
+  927  git push file1 file2
+  928  git status
+  929  git push origin
+  930  cd shell_scripting
+  931  cd ..
+  932  ls -lrt
+  933  git push
+  934  git push origin
+  935  clear
+  936  git push origin
+  937  git status
+  938  git commit -m "all files"
+  939  git add --all
+  940  git status
+  941  git add .
+  942  git add --all
+  943  git status
+  944  ls -lrt
+  945  clear
+  946  git commit -m
+  947  git commit
+  948  git push
+  949  git init
+  950  git push
+  951  git add* --all
+  952  git add* 
+  953  git add 8
+  954  git add *
+  955  git status
+  956  git commit -m "all files"
+  957  git add* 
+  958  ls -lrt 
+  959  clear
+  960  cd shell_scripting
+  961  ls -lrt
+  962  git add8
+  963  git add*
+  964  git add --all
+  965  git status
+  966  cd ../
+  967  ls -lrt
+  968  clear
+  969  git add*
+  970  gitadd*
+  971  git add *
+  972  git status
+  973  [ec2-user@ip-172-31-0-27 shell_scripting]$
+  974  exit
+  975  cd shell_scripting
+  976  cd shell scripting
+  977  cd shell_scripting/shell_scripting
+  978  cd shell_scripting
+  979  cd..
+  980  cd ..
+  981  cd shell_scripting
+  982  ls -lrt
+  983  ls -lart
+  984  cd shell
+  985  cd ..
+  986  cd shell
+  987  ls -lart
+  988  cd shell_scripting
+  989  cd ../..
+  990  cd shell_scripting
+  991  ls -lr
+  992  ls -lart
+  993  git log
+  994  git log e0f446b12531
+  995  ls -lrt
+  996  git push
+  997  git status
+  998  exit
+  999  clear
+ 1000  hai
+ 1001  echo hai
+ 1002  echo $hai
+ 1003  echo echo
+ 1004  echo $$
+ 1005  echo $0
+ 1006  cd 
+ 1007  cd ~/
+ 1008  ls -ler
+ 1009  ls -lrt
+ 1010  cat
+ 1011  cd shell_scripting
+ 1012  git status
+ 1013  ls
+ 1014  git pull
+ 1015  ls
+ 1016  cat githubfile
+ 1017  history 
+ 1018  history > history.txt
