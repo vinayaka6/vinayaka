@@ -1,8 +1,6 @@
 #!/bin/bash
 
-
 read -p "Enter the numbers of rows:" rows
-
 for (( i=1; i<=rows; i++ ))
 do
 	for (( j=i; j<=rows; j++))
