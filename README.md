@@ -1,3 +1,3 @@
 # vinayaka
 
-user
+user  ssh
