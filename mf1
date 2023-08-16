@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 git local
 remote
 
 =======
 first line in master
+=======
+first line in master featur1
+>>>>>>> feature1
 second line in feature
 >>>>>>> feature1
