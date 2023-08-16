@@ -1,7 +1,1 @@
-first line in master remote
-second line in feature
-<<<<<<< HEAD
- ibcda 
-=======
-remote
->>>>>>> refs/remotes/origin/master
+git local
