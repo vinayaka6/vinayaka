@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-afsfkljkl
-jflsjflskf
-as
-=======
-afdfiafasf
->>>>>>> a7f0a91 (changes made in feature1.0)
