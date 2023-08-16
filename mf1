@@ -1,3 +1,7 @@
 first line in master remote
 second line in feature
-abcn
+<<<<<<< HEAD
+abcn  
+=======
+remote
+>>>>>>> refs/remotes/origin/master
