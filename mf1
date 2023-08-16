@@ -1,7 +1,7 @@
 first line in master remote
 second line in feature
 <<<<<<< HEAD
- iiii 
+ ifgh
 =======
 remote
 >>>>>>> refs/remotes/origin/master
