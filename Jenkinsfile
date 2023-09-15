@@ -1,5 +1,8 @@
-node
+pipeline
 {
+  agent any
+  stages 
+  {
   stage('ContinuousDownloaded') 
   {
     git 'https://github.com/keshavr21/maven_test.git'
@@ -8,4 +11,5 @@ node
   {
     sh 'echo "HELOO  WORLD"'
   } 
+ }
 }
