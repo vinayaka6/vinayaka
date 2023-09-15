@@ -6,6 +6,6 @@ node
   } 
   stage('ContinuousBuild') 
   {
-    sh 'echo "HELLO  hi ORLD"'
+    sh 'echo "HELLO  hi wORLD"'
   } 
 }
