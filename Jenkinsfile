@@ -1,4 +1,4 @@
-node('LINUX') 
+node
 {
   stage('ContinuousDownload') 
   {
